@@ -1,0 +1,14 @@
+# Dataset (regenerable / possibly large or course-restricted)
+Assignment_1/FIFA2026_Player/data.csv
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
