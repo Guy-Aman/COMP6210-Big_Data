@@ -1,0 +1,53 @@
+Column Descriptors
+
+player_name - Full name of the football player.
+
+nationality - Player's national team or country. Some raw records may contain
+"Unknown" and should be cleaned or inferred where possible.
+
+club - The player's club at the time of the recorded match.
+
+position - The player's primary playing position, such as GK, CB, CM, CAM, LW,
+RW, ST, Forward, Midfielder, Defender, or Goalkeeper.
+
+age - Player's age at the time of the season or competition record.
+
+market_value_eur_m - Estimated player market value in millions of euros. Missing
+values may appear in the raw dataset and should be handled during data curation.
+
+season - The season associated with the match record.
+
+competition - The competition in which the match was played. Expected cleaned
+values include FIFA World Cup 2026, League, Champions League, Domestic Cup, and
+World Cup Qualifiers.
+
+match_id - Unique identifier for a match record.
+
+minutes_played - Number of minutes played by the player in the match. Values
+greater than 90 may occur because of stoppage time or extra time.
+
+goals - Number of goals scored by the player in the match.
+
+assists - Number of assists made by the player in the match.
+
+shots_on_target - Number of shots on target made by the player in the match.
+
+pass_accuracy_pct - Player's pass accuracy percentage in the match.
+
+tackles - Number of tackles made by the player in the match.
+
+distance_covered_km - Total distance covered by the player in the match,
+measured in kilometres.
+
+match_rating - Player's overall match rating.
+
+yellow_card - Binary indicator showing whether the player received a yellow
+card in the match. A value of 1 indicates yes, and 0 indicates no.
+
+red_card - Binary indicator showing whether the player received a red card in
+the match. A value of 1 indicates yes, and 0 indicates no.
+
+fouls_committed - Number of fouls committed by the player in the match.
+
+injured_flag - Binary indicator showing whether the player was marked as
+injured in the match record. A value of 1 indicates yes, and 0 indicates no.
